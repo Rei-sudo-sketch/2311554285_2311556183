@@ -4,6 +4,8 @@
 
  Student ID 
 | 2311554285 - Nguyễn Lê Huy Hoàng | Implemented the Order module including Order listing, Create Order with transaction handling, automatic total calculation, stock update, search functionality, statistics dashboard, and integration/testing |
+
+
 | 2311556183 - Nguyễn Thanh Danh | Database setup, Entity Framework scaffolding, initial project setup, and supporting project structure. |
 
 ---
