@@ -12,7 +12,7 @@
 
 ## Technologies
 
-- ASP.NET Core MV
+- ASP.NET Core MVC
 - Entity Framework Core
 - SQL Server
 - Bootstrap
