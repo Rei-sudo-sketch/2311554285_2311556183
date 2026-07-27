@@ -1,0 +1,37 @@
+﻿@model _2311554285_2311556183.ViewModels.StatisticsVM
+
+@{
+    ViewData["Title"] = "Statistics";
+}
+
+<h2>Sales Statistics</h2>
+
+<hr />
+
+<h4>Total Revenue</h4>
+
+<h3>@Model.TotalRevenue</h3>
+
+<hr />
+
+<h4>Top 3 Best Selling Products</h4>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Total Quantity Sold</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.TopProducts)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.TotalSold</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
